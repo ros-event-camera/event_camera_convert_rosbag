@@ -4,8 +4,17 @@ Conversion tool to change the message type of ROS/ROS2 bags from
 ``event_array_msgs::EventArray`` to
 ``event_camera_msgs::EventPacket``.
 
-This package is built like any other ROS package (copy in workspace
-under src and rebuild workspace).
+## How to build
+
+Set the following shell variables:
+```bash
+repo=event_camera_convert_rosbag
+url=https://github.com/ros-event-camera/${repo}.git
+```
+and follow the [instructions here](https://github.com/ros-misc-utilities/.github/blob/master/docs/build_ros_repository.md)
+
+
+## How to use
 
 To convert bag:
 ```
